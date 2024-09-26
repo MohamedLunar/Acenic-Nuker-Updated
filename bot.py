@@ -68,7 +68,7 @@ settings = {
         "token": None,
         "permissions": [],
         "bot_permission": "2146958847",
-        "command_prefix": ".",
+        "command_prefix": "?",
         "bot_status": "dnd",
         "verbose": 15,
         "bomb_messages": {
@@ -167,9 +167,7 @@ def setUp():
             exit()
 
     print('\nTips:')
-    print('The default command_prefix is: .')
-    
-    print('Join our discord https://discord.gg/qHgswz6Hcm')
+    print('The default command_prefix is: ?')
 
     settings_copy = deepcopy(settings)
 
