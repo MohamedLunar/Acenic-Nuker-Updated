@@ -1320,7 +1320,7 @@ async def createAndSpamChannels(ctx):
 
 async def createChannelAndSpam(ctx, index):
     try:
-        new_channel = await selected_server.create_text_channel(f'nuked-{index}')
+        new_channel = await selected_server.create_text_channel(f'nuked-by-mohamedlunar-{index}')
         # Continuously send multiple different messages in the new channel
         while True:
             for message in MESSAGES:
